@@ -2,8 +2,8 @@
 ## Status 
 The program runs as expected, only 1 process that is repeated on the console. Once you enter the kill command, the program will exit
 and display the kill and exit message.
-There's no known issues. Program will execute until either the kill command is given or the program is stopped. 
+Program has an issue where you are able to kill with SIGUSR2, however works fine otherwise. 
 ## Known Issues
-No known issues at the current moment, as the lab only expects you to kill the PID that's displayed on your browser.
+Able to kill process with SIGUSR2, however it doesn't display the proper exit message
 ## Expected Grade
-5/5, as the lab was straight forward with no other type of function behind it 
+4/5
